@@ -1,0 +1,10 @@
+@import "app/assets/style/colors";
+
+.header {
+    border-bottom: 1px solid #262626;
+
+    .highlight {
+        color: $highlight;
+        font-weight: bold !important;
+    }
+}

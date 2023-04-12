@@ -1,0 +1,65 @@
+@import "app/assets/style/colors";
+
+.basket {
+    color: #FFF;
+    position: relative;
+
+    svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .badge {
+        background-color: $highlight;
+        font-family: aven !important;
+        color: #333;
+        font-weight: bold;
+        font-size: 1rem;
+        width: 22px;
+        height: 25px;
+        border-radius: 100px 100px 0 100px;
+        top: 12px;
+        padding-top: 4px;
+    }
+
+    &:hover {
+        .menu {
+            display: block;
+        }
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #FFF;
+        border-radius: 5px;
+        width: 300px;
+        top: 40px;
+        right: 0;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        direction: ltr;
+        text-align: left;
+
+        li {
+            padding: 10px;
+
+            .remove {
+                background-color: #e03939;
+                border-radius: 100px;
+                padding: 3px 10px;
+                color: #FFF;
+                cursor: pointer;
+
+                svg {
+                    width: 15px;
+                    height: 15px;
+                    position: relative;
+                    top: 1px;
+                }
+            }
+        }
+    }
+}

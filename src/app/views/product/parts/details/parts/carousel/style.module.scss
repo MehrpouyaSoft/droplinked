@@ -1,0 +1,33 @@
+.carousel {
+    img {
+        border-radius: 8px;
+    }
+
+    .slide {
+        cursor: pointer;
+    }
+
+    .thumb {
+        position: relative;
+
+        .arrow {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+            svg {
+                width: 40px;
+                height: 40px;
+            }
+
+            &.left {
+                left: 0;
+            }
+
+            &.right {
+                right: 0;
+            }
+        }
+    }
+}

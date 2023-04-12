@@ -1,0 +1,17 @@
+@import "app/assets/style/colors";
+
+.search {
+    padding: 9px 20px;
+    border-radius: 100px;
+    background-color: $bg_card;
+    font-weight: bold !important;
+    color: #808080;
+
+    input {
+        width: 200px;
+        outline: none;
+        background: none;
+        border: none;
+        color: #808080;
+    }
+}
